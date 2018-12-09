@@ -1,21 +1,9 @@
-/*
- * Globals
- */
-
-/* Links */
-a,
-a:focus,
-a:hover {
-  color: #fff;
-}
 
 /* Custom default button */
-.btn-secondary,
-.btn-secondary:hover,
-.btn-secondary:focus {
-  color: #333;
-  text-shadow: none; /* Prevent inheritance from `body` */
-  background-color: #fff;
+.btn-secondary{
+margin: auto;
+  color: #000;
+  background-color: #FAF2F0;
   border: .05rem solid #fff;
 }
 
@@ -43,40 +31,7 @@ body {
   min-height: 100%;
   box-shadow: inset 0 0 5rem rgba(0,0,0,.5);
 }
-.site-wrapper-inner {
-  display: table-cell;
-  vertical-align: top;
-}
-.cover-container {
-  margin-right: auto;
-  margin-left: auto;
-}
 
-/* Padding for spacing */
-.inner {
-  padding: 2rem;
-}
-
-/*
- * Cover
- */
-
-.cover {
-  padding: 0 1.5rem;
-}
-.cover .btn-lg {
-  padding: .75rem 1.25rem;
-  font-weight: 700;
-}
-
-
-/*
- * Footer
- */
-
-.mastfoot {
-  color: rgba(255,255,255,.5);
-}
 
 /*
  * Personal Touch
@@ -84,47 +39,69 @@ body {
 #title{
     font-family: 'Noto Sans', sans-serif;
     font-weight: 700;
-    font-size: 40px;
+    font-size: 50px;
+}
+
+#sub-title{
+    color: #F6C846;
 }
 
 .header{
+    width: 100%;
     text-align: center;
-    border: 5px solid black;
 }
 
-
-/*
- * Affix and center
- */
-
-@media (min-width: 40em) {
-  /* Pull out the header and footer */
-  .masthead {
-    position: fixed;
-    top: 0;
-  }
-  .mastfoot {
-    position: fixed;
-    bottom: 0;
-  }
-
-  /* Start the vertical centering */
-  .site-wrapper-inner {
-    vertical-align: middle;
-  }
-
-  /* Handle the widths */
-  .masthead,
-  .mastfoot,
-  .cover-container {
-    width: 100%; /* Must be percentage or pixels for horizontal alignment */
-  }
+.login_register{
+    border-radius: 10px;
+    background-color: #F6C846;
+    margin: 50px;
+    width: 300px;
+    height: 320px;
+    float: right;
 }
 
-@media (min-width: 62em) {
-  .masthead,
-  .mastfoot,
-  .cover-container {
-    width: 42rem;
-  }
+#login{
+    display:block; 
+    justify-content: center; 
+    width: 150px;
+    margin-top: 60px;
+}
+
+#register{
+    display:block; 
+    justify-content: center; 
+    width: 150px;
+    margin-top: 60px;
+}
+
+#about{
+    font-family: 'Noto Sans', sans-serif;
+    text-align: center;
+    display: block;
+    justify-content: center; 
+    width: 100%;
+    margin-top: 60px;
+    text-decoration: none;
+    color: #FAF2F0;
+    font-size: 20px;
+}
+
+.brief-info{
+    margin: 90px;
+    width: 100%;
+}
+
+#info{
+    padding: 10px;
+    font-family: 'Noto Sans', sans-serif;
+    float: left;
+    font-size: 20px;
+}
+
+.modal-content{
+    background-color: #F8F0F0;
+}
+
+.modal-header{
+    margin-left: 10px;
 }
