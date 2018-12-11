@@ -105,3 +105,66 @@ body {
 .modal-header{
     margin-left: 10px;
 }
+
+#login_form{
+    text-align:left;
+}
+
+#signup_form{
+    text-align:left;
+}
+
+#forgot{
+    font-family: 'Noto Sans', sans-serif;
+    text-align: left;
+    width: 100%;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #000;
+    font-size: 15px;
+}
+
+#about-us{
+    text-align: center;
+    font-family: 'Noto Sans', sans-serif;
+    color: black;
+    font-size: 40px;
+}
+
+#about-info{
+    background-color: #FFFFFF;
+    padding: 50px;
+}
+
+#text{
+    font-family: 'Noto Sans', sans-serif;
+    text-align: left;
+    color: black;
+}
+
+.user{
+    background-image:url(/port.png);
+    background-repeat:no-repeat;
+    display: inline-block;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+#user-text{
+    text-align: right;
+}
+
+#backback{
+    text-decoration: none;
+    color: #000;
+}
+
+#back{
+    margin: 10px;
+    text-align: center;
+    float: right;
+    background-color: #F6C846;
+    width: 90px;
+}
