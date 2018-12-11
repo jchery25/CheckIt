@@ -143,7 +143,7 @@ body {
 }
 
 .user{
-    background-image:url(/port.png);
+    background-image:url(photos/port.png);
     background-repeat:no-repeat;
     display: inline-block;
     height: 250px;
