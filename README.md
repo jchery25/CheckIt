@@ -4,6 +4,7 @@ CheckIt is a web application that help user complete task by having other users 
 
 Created by: Lue Fang, Yuejia Luo, Jonathan Chery, Jessica Gonzalez
 
+
 ## View Application
 Link To Application: https://jchery25.github.io/CheckIt/
 
@@ -22,4 +23,6 @@ The following **technologies** were used to complete this website:
 * HTML/CSS
 * Bootstrap
 * Font Awesome
+
+(NOTE: Some of the pages are currently in progress.)
 
