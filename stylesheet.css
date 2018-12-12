@@ -14,13 +14,7 @@ margin: auto;
 
 html,
 body {
-  height: 100%;
   background-color: #F8F2F0;
-}
-body {
-  color: #000;
-  text-align: right;
-  text-shadow: 0 .05rem .1rem rgba(0,0,0,.5);
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
@@ -29,7 +23,6 @@ body {
   width: 100%;
   height: 100%; /* For at least Firefox */
   min-height: 100%;
-  box-shadow: inset 0 0 5rem rgba(0,0,0,.5);
 }
 
 
@@ -167,4 +160,122 @@ body {
     float: right;
     background-color: #F6C846;
     width: 90px;
+}
+
+.navbar{
+    text-align: right;
+    display: block;
+    width: 100%;
+}
+
+#icons{
+    margin: 15px;
+    height: 30px;
+    width: 30px;
+}
+
+#profile_upper{
+    margin: 1px;
+    padding: 1px;
+}
+
+#profil_pic{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin: 0 auto;
+}
+
+#user_infomation{
+    border: 1px solid #FBF7F6;
+    background-color: #FCFBFA;
+    text-align: center;
+}
+
+#points{
+    color: red;
+}
+
+#post{
+    border: 1px solid #FBF7F6;
+    background-color: #FCFBFA;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#postIcon{
+    height: 50px;
+    width: 50px;
+    margin-top: 10%;
+}
+
+#postButton{
+    margin-top: 10%;
+}
+
+#profile_lower{
+    margin: 1px;
+    height: 100%;
+    padding: 1px;
+}
+
+#user_navigator{
+    border: 1px solid #FBF7F6;
+    background-color: #E6E4E4;
+}
+
+#user_panel{
+    border: 1px solid #FBF7F6;
+    height: 150%;
+    padding: 10px;
+}
+
+#nav{
+    text-decoration: none;    
+}
+
+#navList{
+    text-align: center;
+    margin: 20px;
+    color: black;
+}
+
+#indicator{
+    text-align: center;
+    border: 2px solid black;
+    width: 150px;
+    margin: 0 auto;
+    font-size: 25px;
+    border-radius: 5%;
+    background-color: #F6C846;
+}
+
+#usersFeed{
+    border-bottom: 2px solid black;
+    height: 100px;
+    margin-top: 5px; 
+}
+
+#profilePicture{
+    height: 75px;
+    width: 75px;
+    border: 1px solid black;
+    border-radius: 40%;
+    margin: 10px;
+}
+
+#profilText{
+    margin: 0 auto;
+    text-align: center;
+}
+
+#posting{
+    width: 10px;
+    height: 100px;
+    border: 2px solid black;
+    border-radius: 10%;
+    background-color: #FAEDEE;
+    text-align: center;
+    margin: 10px;
 }
